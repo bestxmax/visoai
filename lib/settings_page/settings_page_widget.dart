@@ -57,7 +57,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Text(
-            'Settings',
+            FFLocalizations.of(context).getText(
+              'pxr21hwj' /* Settings */,
+            ),
             style: FlutterFlowTheme.of(context).titleLarge.override(
                   font: GoogleFonts.interTight(
                     fontWeight: FontWeight.w600,
@@ -107,7 +109,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                           size: 48.0,
                         ),
                         Text(
-                          'Unlimited Artwork Styles',
+                          FFLocalizations.of(context).getText(
+                            '2ku26grr' /* Unlimited Artwork Styles */,
+                          ),
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).titleLarge.override(
@@ -129,7 +133,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                           onPressed: () {
                             print('Button pressed ...');
                           },
-                          text: 'Try Pro Now',
+                          text: FFLocalizations.of(context).getText(
+                            'aj57y5yc' /* Try Pro Now */,
+                          ),
                           options: FFButtonOptions(
                             height: 44.0,
                             padding: EdgeInsetsDirectional.fromSTEB(
@@ -196,7 +202,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   size: 24.0,
                                 ),
                                 Text(
-                                  'Share',
+                                  FFLocalizations.of(context).getText(
+                                    'ti0t6ea5' /* Share */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
@@ -258,7 +266,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   size: 24.0,
                                 ),
                                 Text(
-                                  'Feedback',
+                                  FFLocalizations.of(context).getText(
+                                    'm63qd1kb' /* Feedback */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
@@ -320,7 +330,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   size: 24.0,
                                 ),
                                 Text(
-                                  'Language',
+                                  FFLocalizations.of(context).getText(
+                                    'yisudlng' /* Language */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
@@ -382,7 +394,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   size: 24.0,
                                 ),
                                 Text(
-                                  'Privacy Policy',
+                                  FFLocalizations.of(context).getText(
+                                    'hdlumuya' /* Privacy Policy */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
@@ -444,7 +458,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   size: 24.0,
                                 ),
                                 Text(
-                                  'Terms of Service',
+                                  FFLocalizations.of(context).getText(
+                                    'f315orz1' /* Terms of Service */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(
@@ -506,7 +522,9 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   size: 24.0,
                                 ),
                                 Text(
-                                  'About',
+                                  FFLocalizations.of(context).getText(
+                                    'ndye3g0i' /* About */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
                                       .override(

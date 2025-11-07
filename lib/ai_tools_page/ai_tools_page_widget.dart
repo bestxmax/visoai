@@ -237,7 +237,9 @@ class _AiToolsPageWidgetState extends State<AiToolsPageWidget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                'Advertisement Banner Placeholder',
+                                FFLocalizations.of(context).getText(
+                                  '0nslwv2g' /* Advertisement Banner Placehold... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(

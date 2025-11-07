@@ -67,7 +67,9 @@ class _SubscriptionPlanCardWidgetState
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                '1 Year',
+                FFLocalizations.of(context).getText(
+                  'xojcppmr' /* 1 Year */,
+                ),
                 style: FlutterFlowTheme.of(context).titleMedium.override(
                       font: GoogleFonts.interTight(
                         fontWeight:
@@ -83,7 +85,9 @@ class _SubscriptionPlanCardWidgetState
                     ),
               ),
               Text(
-                'đ944,000',
+                FFLocalizations.of(context).getText(
+                  '51q9sdn1' /* đ944,000 */,
+                ),
                 style: FlutterFlowTheme.of(context).titleSmall.override(
                       font: GoogleFonts.interTight(
                         fontWeight:
@@ -99,7 +103,9 @@ class _SubscriptionPlanCardWidgetState
                     ),
               ),
               Text(
-                'đ18,153.85 / Week',
+                FFLocalizations.of(context).getText(
+                  '3takc0ny' /* đ18,153.85 / Week */,
+                ),
                 style: FlutterFlowTheme.of(context).bodySmall.override(
                       font: GoogleFonts.inter(
                         fontWeight:

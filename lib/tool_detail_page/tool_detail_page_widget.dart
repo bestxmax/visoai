@@ -63,7 +63,9 @@ class _ToolDetailPageWidgetState extends State<ToolDetailPageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Text(
-            'Ghostface',
+            FFLocalizations.of(context).getText(
+              'epa9hu9f' /* Ghostface */,
+            ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   font: GoogleFonts.interTight(
                     fontWeight: FontWeight.bold,
@@ -83,7 +85,9 @@ class _ToolDetailPageWidgetState extends State<ToolDetailPageWidget> {
                 onPressed: () async {
                   context.pushNamed(ProPageWidget.routeName);
                 },
-                text: 'Remove Ad',
+                text: FFLocalizations.of(context).getText(
+                  '9qk7wdeh' /* Remove Ad */,
+                ),
                 options: FFButtonOptions(
                   height: 36.0,
                   padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
@@ -205,7 +209,9 @@ class _ToolDetailPageWidgetState extends State<ToolDetailPageWidget> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text(
-                        'Add your face to swap',
+                        FFLocalizations.of(context).getText(
+                          'jj9d9bd2' /* Add your face to swap */,
+                        ),
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).titleLarge.override(
                               font: GoogleFonts.interTight(
@@ -253,7 +259,9 @@ class _ToolDetailPageWidgetState extends State<ToolDetailPageWidget> {
                             onPressed: () {
                               print('Button pressed ...');
                             },
-                            text: 'Swap Face',
+                            text: FFLocalizations.of(context).getText(
+                              '56axo3fw' /* Swap Face */,
+                            ),
                             icon: Icon(
                               Icons.face_retouching_natural,
                               size: 24.0,
@@ -288,7 +296,9 @@ class _ToolDetailPageWidgetState extends State<ToolDetailPageWidget> {
                             ),
                           ),
                           Text(
-                            'Watch Ad',
+                            FFLocalizations.of(context).getText(
+                              'aix5m0s2' /* Watch Ad */,
+                            ),
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium

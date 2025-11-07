@@ -59,7 +59,9 @@ class _HDPageWidgetState extends State<HDPageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Text(
-            'HD Image',
+            FFLocalizations.of(context).getText(
+              '7fnnvmnu' /* HD Image */,
+            ),
             style: FlutterFlowTheme.of(context).titleLarge.override(
                   font: GoogleFonts.interTight(
                     fontWeight: FontWeight.w600,
@@ -120,7 +122,9 @@ class _HDPageWidgetState extends State<HDPageWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 24.0),
                               child: Text(
-                                'Add Your Photo',
+                                FFLocalizations.of(context).getText(
+                                  'y00dj2sv' /* Add Your Photo */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .titleLarge
                                     .override(
@@ -168,7 +172,9 @@ class _HDPageWidgetState extends State<HDPageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
-                                            'Photos',
+                                            FFLocalizations.of(context).getText(
+                                              '5rkd0nbk' /* Photos */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -221,7 +227,9 @@ class _HDPageWidgetState extends State<HDPageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
-                                            'Camera',
+                                            FFLocalizations.of(context).getText(
+                                              'ndxpxumu' /* Camera */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -276,7 +284,9 @@ class _HDPageWidgetState extends State<HDPageWidget> {
                                         child: Padding(
                                           padding: EdgeInsets.all(8.0),
                                           child: Text(
-                                            'Demo',
+                                            FFLocalizations.of(context).getText(
+                                              'nhw146iq' /* Demo */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -332,7 +342,9 @@ class _HDPageWidgetState extends State<HDPageWidget> {
                                         child: Padding(
                                           padding: EdgeInsets.all(8.0),
                                           child: Text(
-                                            'Demo',
+                                            FFLocalizations.of(context).getText(
+                                              'xnwsn7eu' /* Demo */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(

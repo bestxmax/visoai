@@ -148,7 +148,9 @@ class _MinePageWidgetState extends State<MinePageWidget> {
                       height: 24.0,
                     ),
                     Text(
-                      'Start Creating Now',
+                      FFLocalizations.of(context).getText(
+                        'zuaf0ccc' /* Start Creating Now */,
+                      ),
                       style: FlutterFlowTheme.of(context).titleLarge.override(
                             font: GoogleFonts.interTight(
                               fontWeight: FontWeight.bold,
@@ -165,7 +167,9 @@ class _MinePageWidgetState extends State<MinePageWidget> {
                           ),
                     ),
                     Text(
-                      'Start experiencing the features and unleash your creativity with our powerful tools',
+                      FFLocalizations.of(context).getText(
+                        'htp44ila' /* Start experiencing the feature... */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.inter(
                               fontWeight: FlutterFlowTheme.of(context)
@@ -191,7 +195,9 @@ class _MinePageWidgetState extends State<MinePageWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: 'Start Creating',
+                      text: FFLocalizations.of(context).getText(
+                        '3yon2sc3' /* Start Creating */,
+                      ),
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 50.0,

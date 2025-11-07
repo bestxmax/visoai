@@ -99,7 +99,9 @@ class _BottomNavBarWidgetState extends State<BottomNavBarWidget> {
                       size: 24.0,
                     ),
                     Text(
-                      'Home',
+                      FFLocalizations.of(context).getText(
+                        'sxs2lkr8' /* Home */,
+                      ),
                       style: FlutterFlowTheme.of(context).labelSmall.override(
                             font: GoogleFonts.inter(
                               fontWeight: FlutterFlowTheme.of(context)
@@ -141,7 +143,9 @@ class _BottomNavBarWidgetState extends State<BottomNavBarWidget> {
                       size: 28.0,
                     ),
                     Text(
-                      'AI Tools',
+                      FFLocalizations.of(context).getText(
+                        'i29ifwew' /* AI Tools */,
+                      ),
                       style: FlutterFlowTheme.of(context).labelSmall.override(
                             font: GoogleFonts.inter(
                               fontWeight: FlutterFlowTheme.of(context)
@@ -183,7 +187,9 @@ class _BottomNavBarWidgetState extends State<BottomNavBarWidget> {
                       size: 24.0,
                     ),
                     Text(
-                      'Mine',
+                      FFLocalizations.of(context).getText(
+                        'qley5tls' /* Mine */,
+                      ),
                       style: FlutterFlowTheme.of(context).labelSmall.override(
                             font: GoogleFonts.inter(
                               fontWeight: FlutterFlowTheme.of(context)

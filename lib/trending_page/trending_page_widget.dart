@@ -54,7 +54,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Text(
-            'Trending',
+            FFLocalizations.of(context).getText(
+              'om74lbzl' /* Trending */,
+            ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   font: GoogleFonts.interTight(
                     fontWeight: FontWeight.w600,
@@ -145,7 +147,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Urban Style',
+                                FFLocalizations.of(context).getText(
+                                  'u3hyuuf7' /* Urban Style */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -163,7 +167,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     ),
                               ),
                               Text(
-                                'Hot this week',
+                                FFLocalizations.of(context).getText(
+                                  '59hs3tdi' /* Hot this week */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -192,7 +198,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    '89 items',
+                                    FFLocalizations.of(context).getText(
+                                      'iivw6v91' /* 89 items */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -266,7 +274,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Vintage Look',
+                                FFLocalizations.of(context).getText(
+                                  '5vi1c4cs' /* Vintage Look */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -284,7 +294,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     ),
                               ),
                               Text(
-                                'Classic choice',
+                                FFLocalizations.of(context).getText(
+                                  'jq9v9xeh' /* Classic choice */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -313,7 +325,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    '67 items',
+                                    FFLocalizations.of(context).getText(
+                                      '61ohn77n' /* 67 items */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -387,7 +401,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Minimalist',
+                                FFLocalizations.of(context).getText(
+                                  '0qd5qt8h' /* Minimalist */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -405,7 +421,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     ),
                               ),
                               Text(
-                                'Clean & simple',
+                                FFLocalizations.of(context).getText(
+                                  '7c9fljb4' /* Clean & simple */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -434,7 +452,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    '156 items',
+                                    FFLocalizations.of(context).getText(
+                                      'vlrvoy0f' /* 156 items */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -508,7 +528,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Boho Chic',
+                                FFLocalizations.of(context).getText(
+                                  '3evaeyp0' /* Boho Chic */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -526,7 +548,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     ),
                               ),
                               Text(
-                                'Free spirit',
+                                FFLocalizations.of(context).getText(
+                                  'oi6tjz8h' /* Free spirit */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -555,7 +579,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    '93 items',
+                                    FFLocalizations.of(context).getText(
+                                      'qyibxayt' /* 93 items */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -629,7 +655,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Business Formal',
+                                FFLocalizations.of(context).getText(
+                                  'sw21311e' /* Business Formal */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -647,7 +675,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     ),
                               ),
                               Text(
-                                'Professional',
+                                FFLocalizations.of(context).getText(
+                                  '4u684846' /* Professional */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -676,7 +706,9 @@ class _TrendingPageWidgetState extends State<TrendingPageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    '78 items',
+                                    FFLocalizations.of(context).getText(
+                                      'vaw1ipjl' /* 78 items */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(

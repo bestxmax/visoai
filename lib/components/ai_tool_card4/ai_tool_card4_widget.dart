@@ -98,7 +98,9 @@ class _AiToolCard4WidgetState extends State<AiToolCard4Widget> {
                   padding:
                       EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
                   child: Text(
-                    'Improve Photo Quality',
+                    FFLocalizations.of(context).getText(
+                      'bupg5b82' /* Improve Photo Quality */,
+                    ),
                     style: FlutterFlowTheme.of(context).titleMedium.override(
                           font: GoogleFonts.interTight(
                             fontWeight: FontWeight.bold,

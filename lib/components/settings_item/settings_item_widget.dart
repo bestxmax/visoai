@@ -61,7 +61,9 @@ class _SettingsItemWidgetState extends State<SettingsItemWidget> {
             ),
             Expanded(
               child: Text(
-                'Share',
+                FFLocalizations.of(context).getText(
+                  'yejuazzb' /* Share */,
+                ),
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
                       font: GoogleFonts.inter(
                         fontWeight:

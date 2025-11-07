@@ -71,7 +71,9 @@ class _StyleCardWidgetState extends State<StyleCardWidget> {
               ),
             ),
             Text(
-              'Cartoonify Yourself',
+              FFLocalizations.of(context).getText(
+                'vcebb9mq' /* Cartoonify Yourself */,
+              ),
               style: FlutterFlowTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.inter(
                       fontWeight:

@@ -60,7 +60,9 @@ class _SimpleAppBarWidgetState extends State<SimpleAppBarWidget> {
         },
       ),
       title: Text(
-        'Page Title',
+        FFLocalizations.of(context).getText(
+          'ayliupf2' /* Page Title */,
+        ),
         style: FlutterFlowTheme.of(context).headlineMedium.override(
               font: GoogleFonts.interTight(
                 fontWeight:

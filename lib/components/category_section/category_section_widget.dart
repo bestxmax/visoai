@@ -72,7 +72,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                     context.pushNamed(TrendingPageWidget.routeName);
                   },
                   child: Text(
-                    'Trending',
+                    FFLocalizations.of(context).getText(
+                      'penlenlb' /* Trending */,
+                    ),
                     style: FlutterFlowTheme.of(context).titleMedium.override(
                           font: GoogleFonts.interTight(
                             fontWeight: FontWeight.bold,
@@ -102,7 +104,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                         context.pushNamed(TrendingPageWidget.routeName);
                       },
                       child: Text(
-                        'See All',
+                        FFLocalizations.of(context).getText(
+                          'kekfyhni' /* See All */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               font: GoogleFonts.inter(
                                 fontWeight: FlutterFlowTheme.of(context)
@@ -183,7 +187,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Summer Vibes',
+                                FFLocalizations.of(context).getText(
+                                  '7xtqp3rx' /* Summer Vibes */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -201,7 +207,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                                     ),
                               ),
                               Text(
-                                'Casual & Trendy',
+                                FFLocalizations.of(context).getText(
+                                  '8wwwyxsy' /* Casual & Trendy */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelSmall
                                     .override(
@@ -268,7 +276,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Urban Style',
+                                FFLocalizations.of(context).getText(
+                                  '8k3e0cfa' /* Urban Style */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -286,7 +296,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                                     ),
                               ),
                               Text(
-                                'Street Fashion',
+                                FFLocalizations.of(context).getText(
+                                  '975c3b46' /* Street Fashion */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelSmall
                                     .override(
@@ -353,7 +365,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Business Chic',
+                                FFLocalizations.of(context).getText(
+                                  'rglv0s5x' /* Business Chic */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -371,7 +385,9 @@ class _CategorySectionWidgetState extends State<CategorySectionWidget> {
                                     ),
                               ),
                               Text(
-                                'Professional Look',
+                                FFLocalizations.of(context).getText(
+                                  'zsetx7zl' /* Professional Look */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelSmall
                                     .override(

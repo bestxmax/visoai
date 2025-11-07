@@ -97,7 +97,9 @@ class _MainAppBarWidgetState extends State<MainAppBarWidget> {
                   onPressed: () async {
                     context.pushNamed(ProPageWidget.routeName);
                   },
-                  text: 'PRO',
+                  text: FFLocalizations.of(context).getText(
+                    '7i3b0tbz' /* PRO */,
+                  ),
                   icon: Icon(
                     Icons.workspace_premium,
                     size: 15.0,

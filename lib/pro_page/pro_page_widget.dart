@@ -119,7 +119,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                               size: 24.0,
                             ),
                             Text(
-                              'Unlimited access to premium content',
+                              FFLocalizations.of(context).getText(
+                                '56toelc5' /* Unlimited access to premium co... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
@@ -148,7 +150,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                               size: 24.0,
                             ),
                             Text(
-                              'Ad-free experience across all platforms',
+                              FFLocalizations.of(context).getText(
+                                '00e6jeeb' /* Ad-free experience across all ... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
@@ -177,7 +181,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                               size: 24.0,
                             ),
                             Text(
-                              'Priority customer support 24/7',
+                              FFLocalizations.of(context).getText(
+                                'vwfomz7s' /* Priority customer support 24/7 */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
@@ -206,7 +212,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                               size: 24.0,
                             ),
                             Text(
-                              'Exclusive member-only features',
+                              FFLocalizations.of(context).getText(
+                                '94qjkx4u' /* Exclusive member-only features */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
@@ -285,7 +293,10 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                           child: Padding(
                                             padding: EdgeInsets.all(8.0),
                                             child: Text(
-                                              'POPULAR',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'bmlm03s6' /* POPULAR */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodySmall
@@ -314,7 +325,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                         ),
                                       ),
                                       Text(
-                                        'Premium',
+                                        FFLocalizations.of(context).getText(
+                                          'rx5a2kg4' /* Premium */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .titleMedium
                                             .override(
@@ -335,7 +348,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '\$19.99',
+                                        FFLocalizations.of(context).getText(
+                                          '8a7w742a' /* $19.99 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
@@ -356,7 +371,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'per month',
+                                        FFLocalizations.of(context).getText(
+                                          'd5v54qq8' /* per month */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
@@ -385,7 +402,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                     ].divide(SizedBox(height: 8.0)),
                                   ),
                                   Text(
-                                    'Best value for families',
+                                    FFLocalizations.of(context).getText(
+                                      'zyhpmtv7' /* Best value for families */,
+                                    ),
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
@@ -442,7 +461,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                         CrossAxisAlignment.center,
                                     children: [
                                       Text(
-                                        'Enterprise',
+                                        FFLocalizations.of(context).getText(
+                                          't4uf8y1s' /* Enterprise */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .titleMedium
                                             .override(
@@ -463,7 +484,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '\$49.99',
+                                        FFLocalizations.of(context).getText(
+                                          'xn0h5dbz' /* $49.99 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
@@ -484,7 +507,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'per month',
+                                        FFLocalizations.of(context).getText(
+                                          'k79znrld' /* per month */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
@@ -513,7 +538,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                                     ].divide(SizedBox(height: 8.0)),
                                   ),
                                   Text(
-                                    'For large organizations',
+                                    FFLocalizations.of(context).getText(
+                                      'ubse7t0f' /* For large organizations */,
+                                    ),
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
@@ -551,7 +578,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: 'Continue',
+                      text: FFLocalizations.of(context).getText(
+                        'ga3b8w5e' /* Continue */,
+                      ),
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 56.0,
@@ -586,7 +615,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                           onPressed: () {
                             print('Button pressed ...');
                           },
-                          text: 'User Agreement',
+                          text: FFLocalizations.of(context).getText(
+                            'ap0vvd6m' /* User Agreement */,
+                          ),
                           options: FFButtonOptions(
                             padding: EdgeInsets.all(8.0),
                             iconPadding: EdgeInsetsDirectional.fromSTEB(
@@ -612,7 +643,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                           ),
                         ),
                         Text(
-                          '•',
+                          FFLocalizations.of(context).getText(
+                            'w8rmxxha' /* • */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     font: GoogleFonts.inter(
@@ -637,7 +670,9 @@ class _ProPageWidgetState extends State<ProPageWidget> {
                           onPressed: () {
                             print('Button pressed ...');
                           },
-                          text: 'Privacy Policy',
+                          text: FFLocalizations.of(context).getText(
+                            'o06wy94r' /* Privacy Policy */,
+                          ),
                           options: FFButtonOptions(
                             padding: EdgeInsets.all(8.0),
                             iconPadding: EdgeInsetsDirectional.fromSTEB(

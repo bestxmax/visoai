@@ -45,7 +45,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="pro6" android:host="pro6.com" />
+                <data android:scheme="visoai" android:host="visoai.com" />
             </intent-filter>
 
         </activity>

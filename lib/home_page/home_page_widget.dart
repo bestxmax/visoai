@@ -101,7 +101,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'AI Photo',
+                                    FFLocalizations.of(context).getText(
+                                      'w2ipiy35' /* AI Photo */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -148,7 +150,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       context.pushNamed(HDPageWidget.routeName);
                                     },
                                     child: Text(
-                                      'HD Image',
+                                      FFLocalizations.of(context).getText(
+                                        'fwogqnrf' /* HD Image */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -187,7 +191,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Portrait',
+                                    FFLocalizations.of(context).getText(
+                                      '82o03qes' /* Portrait */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -225,7 +231,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Landscape',
+                                    FFLocalizations.of(context).getText(
+                                      'drfvywji' /* Landscape */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -263,7 +271,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Abstract',
+                                    FFLocalizations.of(context).getText(
+                                      '81ng2kex' /* Abstract */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -318,7 +328,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           TrendingPageWidget.routeName);
                                     },
                                     child: Text(
-                                      'Trending Now',
+                                      FFLocalizations.of(context).getText(
+                                        'abe7i6qs' /* Trending Now */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleLarge
                                           .override(
@@ -348,7 +360,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           TrendingPageWidget.routeName);
                                     },
                                     child: Text(
-                                      'See all',
+                                      FFLocalizations.of(context).getText(
+                                        'e0opw6fh' /* See all */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -410,7 +424,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'AI Portrait',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '5s5j1030' /* AI Portrait */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -436,7 +453,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  'Premium',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '0gsj657g' /* Premium */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -506,7 +526,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Digital Art',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'wy3wss2p' /* Digital Art */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -532,7 +555,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  'Free',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'xu8brx1x' /* Free */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -602,7 +628,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Fantasy',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'slhib54j' /* Fantasy */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -628,7 +657,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  'Premium',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'zxp0iih2' /* Premium */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -684,7 +716,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Popular Templates',
+                                    FFLocalizations.of(context).getText(
+                                      'xd5j8igd' /* Popular Templates */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .titleLarge
                                         .override(
@@ -704,7 +738,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'See all',
+                                    FFLocalizations.of(context).getText(
+                                      'po4tp7nl' /* See all */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -773,7 +809,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Modern Poster',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'usdrnjly' /* Modern Poster */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -800,7 +839,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Business',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ge2gw1i7' /* Business */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -871,7 +913,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Social Media',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'yxx06ge9' /* Social Media */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -898,7 +943,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Marketing',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'mqvpnjn7' /* Marketing */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -969,7 +1017,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Brand Kit',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'gfkf2xnt' /* Brand Kit */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -996,7 +1047,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Corporate',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'wk2mgccl' /* Corporate */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -1067,7 +1121,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Creative Flow',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'dodzj8r3' /* Creative Flow */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -1094,7 +1151,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Artistic',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'e8hlr0my' /* Artistic */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -1150,7 +1210,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'AI Tools',
+                                    FFLocalizations.of(context).getText(
+                                      'r9dkojz7' /* AI Tools */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .titleLarge
                                         .override(
@@ -1170,7 +1232,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'See all',
+                                    FFLocalizations.of(context).getText(
+                                      'exnks28t' /* See all */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -1222,7 +1286,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               size: 32.0,
                                             ),
                                             Text(
-                                              'AI Enhance',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'ld93g39t' /* AI Enhance */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -1276,7 +1343,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               size: 32.0,
                                             ),
                                             Text(
-                                              'Color Magic',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'r6bnfo1l' /* Color Magic */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -1330,7 +1400,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               size: 32.0,
                                             ),
                                             Text(
-                                              'Smart Crop',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '3rxqvear' /* Smart Crop */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -1384,7 +1457,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               size: 32.0,
                                             ),
                                             Text(
-                                              'Background',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'al7he1ju' /* Background */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -1456,7 +1532,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  'Advertisement',
+                                  FFLocalizations.of(context).getText(
+                                    'fqb26x3k' /* Advertisement */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
